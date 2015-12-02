@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Merriweather', serif;
+  color: #0C0D0f;
+}
+
+p {
+  color: #0C0D0f;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #BD6F2B;
+}
+
+.button {
+  float: left;
+  border: 2px solid #0C0D0F;
+  font-size: 2em;
+  background-color: #A5684E;
+}
+.button:hover {
+    background-color: #FSCCB2;
+    color: white;
+}
+.clear {
+  clear: both;
+  margin-top: 6rem;
+}
