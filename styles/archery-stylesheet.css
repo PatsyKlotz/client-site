@@ -1,8 +1,8 @@
 /*  SECTIONS  */
 .section {
 	clear: both;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 
 /*  COLUMN SETUP  */
@@ -34,7 +34,7 @@
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
+	.col {  margin: 1% 0 1% 0; }
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
 
@@ -45,16 +45,19 @@ figure {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
+  -o-transition: 1s;
   -moz-transition: 1s;
   -webkit-transition: 1s;
   transition: 1s; 
 }
 
-figure:hover { border-color: #999; background: rgba(0,0,0,.05); }
-figure > * { margin: 0 auto 0.55em; }
+figure:hover { border-color: #999; border-color:rgba(255, 0, 0, 0.5); }
+
+figure:hover { background: #585858 ; background: rgba(0,0,0,.05); }
+
 
 figcaption { text-align: center; font-style: italic; margin: 0; }
-figure img { display:block;}
+figure img, figcaption { margin: 0 auto 0.55em; display:block;}
 
 
 
