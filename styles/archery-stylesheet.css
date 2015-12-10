@@ -23,7 +23,7 @@
 
 /*  GRID OF TWELVE  */
 .span_12_of_12 {
-	width: 100%;
+	width: 100%; 
 }
 
 .span_11_of_12 {
@@ -84,41 +84,16 @@ body {
 li {
   list-style-type: none;
 }
-
-button, 
-search,
-input, 
-select, 
-textarea { 
-font-size : 100%; 
-margin : 0; 
-vertical-align : baseline; 
-*vertical-align : middle; }
-
-button, input { 
-line-height : normal; 
-*overflow : visible; }
-
-button, 
-input[type="button"], 
-input[type="reset"], 
-input[type="submit"] { 
-padding: 0.5em 1em;
-margin: 0;
-cursor : pointer; 
-font-weight:300;
-}
 .button {
   float: left;
   max-width: 100%;
-  width: 17%;
+  width: 20%;
   margin: 0 auto;
   padding: 2rem;
   border: 3px solid #0C0D0F;
   font-size: 2em;
   background-color: #A5684E;
   text-align: center;
-  overflow: visible;
 }
 .button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
